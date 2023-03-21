@@ -7,7 +7,11 @@
     "test": "jest",
     "coverage": "jest --collectCoverage"
   },
-  "collectCoverageFrom": ["**/*.{js,jsx}", "!**/node_modules/**", "!**/vendor/**"],
+  "collectCoverageFrom": [
+    "**/*.{js,jsx}",
+    "!**/node_modules/**",
+    "!**/vendor/**"
+  ],
   "coverageThreshold": {
     "global": {
       "branches": 100,
@@ -26,6 +30,7 @@
     "@typescript-eslint/eslint-plugin": "^5.55.0",
     "eslint": "^8.36.0",
     "eslint-config-google": "^0.14.0",
+    "eslint-config-standard": "^17.0.0",
     "eslint-config-standard-with-typescript": "^34.0.1",
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-n": "^15.6.1",
